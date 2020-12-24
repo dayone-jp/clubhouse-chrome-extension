@@ -22,3 +22,9 @@
 
 5.
 終わり。ClubhouseのCSSが改善されているはず
+
+
+## その他挙動
+
+1. Tasksは「完了したものは非表示」をデフォルトにしました（好み）。クリックでチェック済みのものを表示できます
+![capture](https://user-images.githubusercontent.com/6558862/103065565-3ba8f080-45fa-11eb-95df-38a04e45063d.gif)
