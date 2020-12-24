@@ -2,6 +2,9 @@
 
 <img src="https://user-images.githubusercontent.com/6558862/103064713-0a2f2580-45f8-11eb-951d-0f469a4b4ecb.png" width="600">
 
+or  
+エンジニアであればリポジトリをCloneしてもOKです
+
 ## インストール方法
 
 1.
