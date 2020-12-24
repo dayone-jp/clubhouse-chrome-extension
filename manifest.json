@@ -12,7 +12,7 @@
     },
     "content_scripts": [{
         "matches": ["https://app.clubhouse.io/*"],
-        "js": ["main.js"],
+        "js": ["jquery-3.5.1.min.js", "main.js"],
         "css": ["main.css"]
     }],
     "background": {

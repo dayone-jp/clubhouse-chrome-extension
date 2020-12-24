@@ -53,6 +53,18 @@
  * Tasks
  */
 
+.story div[data-type="task"] .section-head .counter:after {
+  content: "完了済みのタスクを表示/非表示";
+  display: inline-block;
+  color: #172b4d;
+  background-color: rgba(9, 30, 66, 0.04);
+  padding: 6px 12px;
+  margin-left: 30px;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 .tasks .task {
   padding: 5px 0;
   border-bottom: none;
@@ -62,9 +74,19 @@
   font-size: 14px;
 }
 
+/* 完了タスク、初期値は非表示（表示時はflex） */
+.tasks .task.completed-task {
+  display: none;
+}
+
+.tasks .task.completed-task.show {
+  display: flex;
+}
+
 /* 
  * Pull Request
  */
+
 .story .story-details .pull-title-container .pull-link {
   font-size: 16px;
   line-height: 32px;
