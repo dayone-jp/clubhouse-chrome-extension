@@ -1,0 +1,27 @@
+{
+    "name": "Clubhouse CSS improve kit",
+    "description": "modify mention color, comment UI, etc.",
+    "version": "1.0.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://app.clubhouse.io/*"],
+        "js": ["main.js"],
+        "css": ["main.css"]
+    }],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Make this page red"
+    },
+    "manifest_version": 2
+  }

@@ -1,0 +1,71 @@
+/* 
+ * Story一覧
+ */
+
+.story .story-badges .story-badge.story-id {
+  display: none;
+}
+
+.story .story-badges .tag {
+  color: black;
+  background: aliceblue;
+  font-weight: bold;
+}
+
+/* 
+ * コメント
+ */
+
+.comment .inline-mention {
+  color: #0079bf;
+}
+
+.comment .text {
+  background-color: white;
+  margin: 6px 0;
+  padding: 2px 12px;
+  box-shadow: 0 1px 2px -1px rgba(9, 30, 66, 0.25),
+    0 0 0 1px rgba(9, 30, 66, 0.08);
+}
+
+.comment .text a,
+.description-container a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.story .story-details .section-head {
+  font-size: 17px;
+  line-height: 17px;
+  margin: 35px 0 8px;
+}
+
+/* 
+ * ディスクリプション
+ */
+
+.description-container {
+  margin: 30px 20px 40px;
+}
+
+/* 
+ * Tasks
+ */
+
+.tasks .task {
+  padding: 5px 0;
+  border-bottom: none;
+}
+
+.tasks .task .task-description .markdown-formatted p {
+  font-size: 14px;
+}
+
+/* 
+ * Pull Request
+ */
+.story .story-details .pull-title-container .pull-link {
+  font-size: 16px;
+  line-height: 32px;
+}
