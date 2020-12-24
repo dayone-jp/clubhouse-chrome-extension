@@ -1,6 +1,6 @@
 ## ダウンロード方法
 
-![image](https://user-images.githubusercontent.com/6558862/103064713-0a2f2580-45f8-11eb-951d-0f469a4b4ecb.png)
+<img src="https://user-images.githubusercontent.com/6558862/103064713-0a2f2580-45f8-11eb-951d-0f469a4b4ecb.png" width="600">
 
 ## インストール方法
 
@@ -27,4 +27,5 @@
 ## その他挙動
 
 1. Tasksは「完了したものは非表示」をデフォルトにしました（好み）。クリックでチェック済みのものを表示できます
-![capture](https://user-images.githubusercontent.com/6558862/103065565-3ba8f080-45fa-11eb-95df-38a04e45063d.gif)
+
+  <img src="https://user-images.githubusercontent.com/6558862/103065565-3ba8f080-45fa-11eb-95df-38a04e45063d.gif" width="500">
